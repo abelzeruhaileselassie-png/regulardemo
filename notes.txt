@@ -1,0 +1,598 @@
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1
+$ mkdir july
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1
+$ cd july/
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/july
+$ touch fi.txt
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/july
+$ echo 'helo world'
+helo world
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/july
+$ cd ..
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1
+$ rm -r july/
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1
+$ mkdir git
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1
+$ mkdir git-practice
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1
+$ cd git/
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git
+$ mkdir practice
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git
+$ cd practice/
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice
+$ mkdir regular
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice
+$ cd regular/
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular
+$ git init
+Initialized empty Git repository in C:/Users/SuperUser/Desktop/A6e1/git/practice/regular/.git/
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process        
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --global user.name = "Abel"
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+user.name==
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config -- global user.name == "Abel"
+error: no action specified
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --global user.name = "Abel"
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+user.name==
+user.name==
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ it config --global user.name "Abel"
+bash: it: command not found
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --global user.name "Abel"
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --global user.name --replace-all "Abel"
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+user.name==
+user.name==
+user.name=--replace-all
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --global user.name Abel
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+user.name==
+user.name==
+user.name=--replace-all
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config user.name "Repository-Abel"
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config user.name
+Repository-Abel
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+user.name==
+user.name==
+user.name=--replace-all
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+user.name=Repository-Abel
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --global user.name "Abel"
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --global --unset-all user.name
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+user.name=Repository-Abel
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --global user.name "Abel"
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+user.name=Abel
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+user.name=Repository-Abel
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --global user.name
+Abel
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ $ git config --global user.name "Abell"
+bash: $: command not found
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$  git config --global user.name "Abel"
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$  git config --global user.name "Abell"
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --global user.name
+Abell
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --global user.email "habelzer@gmail.com"
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+user.name=Abell
+user.email=habelzer@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+user.name=Repository-Abel
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --global core.editor "code --wait"
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+user.name=Abell
+user.email=habelzer@gmail.com
+core.editor=code --wait
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+user.name=Repository-Abel
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git config --global user.email "habelzer@gmail.com"
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ ls
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ ls -a
+./  ../  .git/
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ echo "hello world" > readme.md
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ echo "hello" >> readme.md
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+On branch main
+
+No commits yet
+
+Untracked files:
+No commits yet
+
+Untracked files:
+
+Untracked files:
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        readme.md
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git add readme.md
+warning: in the working copy of 'readme.md', LF will be replaced by CRLF the next time Git touches it
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   readme.md
+
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git commit
+[main (root-commit) d220838] create readme file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 readme.md
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git log
+commit d2208387273d0f031af4521777c4061fe77653a3 (HEAD -> main)
+Author: Repository-Abel <habelzer@gmail.com>
+Date:   Fri Nov 28 09:58:39 2025 +0300
+
+    create readme file
+
+    create readme file and text using echo text > filename
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git log --oneline
+d220838 (HEAD -> main) create readme file
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git add readme.md
+warning: in the working copy of 'readme.md', LF will be replaced by CRLF the next time Git touches it
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git commit
+[main 10fe551] Add title on readme file
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ git log
+commit 10fe551a157ee8f8bba816a5f1f6a4bf0ebabd0c (HEAD -> main)
+Author: Repository-Abel <habelzer@gmail.com>
+Date:   Fri Nov 28 10:07:36 2025 +0300
+
+    Add title on readme file
+
+    update readme ....
+
+commit d2208387273d0f031af4521777c4061fe77653a3
+Author: Repository-Abel <habelzer@gmail.com>
+Date:   Fri Nov 28 09:58:39 2025 +0300
+
+    create readme file
+
+    create readme file and text using echo text > filename
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git/practice/regular (main)
+$ cd ~
+
+SuperUser@A6E1S-PC MINGW64 ~
+$ cd Desktop?
+bash: cd: Desktop?: No such file or directory
+
+SuperUser@A6E1S-PC MINGW64 ~
+$ cd Desktop/
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop
+$ cd A6e1/
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1
+$ cd git-practice/
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice
+$ git init
+Initialized empty Git repository in C:/Users/SuperUser/Desktop/A6e1/git-practice/.git/
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ ls -a
+./  ../  .git/
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ echo "<h1>hello git</h1>" > indx.html
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ echo "h1{ color: blue}" > style.css
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ echo "create an empty foder intialize git and create 3 files" > readme.md
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git add indx.html
+warning: in the working copy of 'indx.html', LF will be replaced by CRLF the next time Git touches it
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git add style.css
+warning: in the working copy of 'style.css', LF will be replaced by CRLF the next time Git touches it
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git add readme.md
+warning: in the working copy of 'readme.md', LF will be replaced by CRLF the next time Git touches it
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   indx.html
+        new file:   readme.md
+        new file:   style.css
+
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git commit
+[main (root-commit) 7342724] intialise git on git-practice
+ 3 files changed, 3 insertions(+)
+ create mode 100644 indx.html
+ create mode 100644 readme.md
+ create mode 100644 style.css
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git log
+commit 73427247d78819b4099928cc51e97632be58b4f5 (HEAD -> main)
+Author: Abell <habelzer@gmail.com>
+Date:   Fri Nov 28 10:23:22 2025 +0300
+
+    intialise git on git-practice
+
+    then create three files indx.html,readme.md and style .css
+
+    add text to all three files
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git add readme.md
+warning: in the working copy of 'readme.md', LF will be replaced by CRLF the next time Git touches it
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git commit
+[main d4de124] correct spelling error
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git log
+commit d4de1248dc68de3b78f9c8c66628bfdcc9dad368 (HEAD -> main)
+Author: Abell <habelzer@gmail.com>
+Date:   Fri Nov 28 10:28:47 2025 +0300
+
+    correct spelling error
+
+commit 73427247d78819b4099928cc51e97632be58b4f5
+Author: Abell <habelzer@gmail.com>
+Date:   Fri Nov 28 10:23:22 2025 +0300
+
+    intialise git on git-practice
+
+    then create three files indx.html,readme.md and style .css
+
+    add text to all three files
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ cd ..
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1
+$ cd git-practice/
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$
