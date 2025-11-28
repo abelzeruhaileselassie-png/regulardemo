@@ -1,1 +1,1 @@
-create an empty foder intialize git and create 3 files
+create an empty folder intialize git and create 3 files
