@@ -85,3 +85,15 @@ Deleted branch branch-1 (was 6d3a0d1).
 SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
 $ git branch
 * main
+$ git branch -d branch-3
+Deleted branch branch-3 (was 81ba40e).
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git branch
+* main
+$ git branch -d branch-3
+Deleted branch branch-3 (was 81ba40e).
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git branch
+* main
