@@ -1,4 +1,4 @@
-copy of the integrated terminal
+copy of the integrated terminal pasted below
 SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
 $ git branch
 * main
