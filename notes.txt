@@ -676,3 +676,27 @@ Date:   Fri Nov 28 10:23:22 2025 +0300
     then create three files indx.html,readme.md and style .css
 
     add text to all three files
+    
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git remote -v
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git remote add origin https://github.com/abelzeruhaileselassie-png/regulardemo.git
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git remote -v
+origin  https://github.com/abelzeruhaileselassie-png/regulardemo.git (fetch)
+origin  https://github.com/abelzeruhaileselassie-png/regulardemo.git (push) 
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git push -u origin main
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.  
+Delta compression using up to 4 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (25/25), 6.05 KiB | 563.00 KiB/s, done. 
+Total 25 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/abelzeruhaileselassie-png/regulardemo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.

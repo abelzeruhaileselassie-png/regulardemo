@@ -97,3 +97,22 @@ Deleted branch branch-3 (was 81ba40e).
 SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
 $ git branch
 * main
+$ git switch -c "feature-new-image"
+Switched to a new branch 'feature-new-image'
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (feature-new-image)
+$ git commit -a -m "add an image to the html"
+[feature-new-image a13f854] add an image to the html
+ 2 files changed, 14 insertions(+), 1 deletion(-)
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (feature-new-image)
+$ git switch main
+Switched to branch 'main'
+
+SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
+$ git merge feature-new-image
+Updating 81ba40e..a13f854
+Fast-forward
+ indx.html |  3 ++-
+ readme.md | 12 ++++++++++++
+ 2 files changed, 14 insertions(+), 1 deletion(-)
