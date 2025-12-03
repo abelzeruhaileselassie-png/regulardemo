@@ -1,4 +1,4 @@
-create an empty folder intialize git and create 3 files
+copy of the integrated terminal
 SuperUser@A6E1S-PC MINGW64 ~/Desktop/A6e1/git-practice (main)
 $ git branch
 * main
