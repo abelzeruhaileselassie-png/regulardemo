@@ -116,3 +116,28 @@ Fast-forward
  indx.html |  3 ++-
  readme.md | 12 ++++++++++++
  2 files changed, 14 insertions(+), 1 deletion(-)
+
+$ git log origin/main
+commit 65479d79f556abcb1beff93ac77e335eeb3bdac3 (HEAD -> main, origin/main, origin/HEAD)
+Author: Abel Zeru H/selassie <abelzeruhaileselassie@gmail.com>
+Date:   Wed Dec 3 11:16:55 2025 +0300
+
+    Update readme.md
+
+commit 437c6fb1aeb4b001bc58ce73c8a5ac68d7f9f6c0
+Author: Abel Zeru H/selassie <abelzeruhaileselassie@gmail.com>
+Date:   Wed Dec 3 11:15:04 2025 +0300
+
+    Update readme.md
+
+commit 9a74bc52f6448892a8218d3e83a3c4eab16bac0e
+Author: Abel Zeru H/selassie <abelzeruhaileselassie@gmail.com>
+Date:   Wed Dec 3 11:12:53 2025 +0300
+
+    description
+
+commit 33e780492075add2f6459871b01d1f71731d8376
+Author: Abel Zeru H/selassie <abelzeruhaileselassie@gmail.com>
+Date:   Wed Dec 3 10:59:04 2025 +0300
+
+    intial commit
